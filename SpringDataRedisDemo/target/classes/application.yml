@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: 192.168.10.100
+    port: 6379 # 默认端口
+    password: 123456
+    database: 0 # 默认选择库
+    lettuce: # 默认不是用的jedis，而是lettuce
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 100ms
+
