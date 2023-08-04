@@ -25,7 +25,7 @@ public class LoginInterceptor implements HandlerInterceptor {
             return false;
         }
         // 2. 有用户就放行
-        log.info("拦截---------login");
+        log.info("拦截2---------login");
         return true;
     }
 

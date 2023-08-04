@@ -52,7 +52,6 @@ public class RefreshTokenInterceptor implements HandlerInterceptor {
             }
         }
         // 8. 放行
-        log.info("拦截---------refresh");
 
         return true;
     }
