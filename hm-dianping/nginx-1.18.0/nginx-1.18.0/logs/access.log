@@ -15244,3 +15244,4 @@
 127.0.0.1 - - [05/Aug/2023:00:06:35 +0800] "GET /api/shop/0 HTTP/1.1" 200 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
 127.0.0.1 - - [05/Aug/2023:00:06:35 +0800] "GET /api/shop/0 HTTP/1.1" 200 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
 127.0.0.1 - - [05/Aug/2023:00:06:35 +0800] "GET /api/shop/0 HTTP/1.1" 200 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+127.0.0.1 - - [05/Aug/2023:02:41:46 +0800] "GET /user/current HTTP/1.1" 404 555 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
