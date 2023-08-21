@@ -23,9 +23,8 @@ public interface IVoucherOrderService extends IService<VoucherOrder> {
 
     /**
      * 通过线程安全的方式去创建订单
-     * @param voucherId 优惠劵id
-     * @param userId 用户id
-     * @return 当前秒杀卷的订单编号
+     * @param voucherOrder
+     * @param userId
      */
-    Result createVoucherOrder(Long voucherId, Long userId);
+    void createVoucherOrder(VoucherOrder voucherOrder, Long userId);
 }
