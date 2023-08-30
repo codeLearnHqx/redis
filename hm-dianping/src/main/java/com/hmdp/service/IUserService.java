@@ -30,4 +30,8 @@ public interface IUserService extends IService<User> {
      * @return
      */
     Result login(LoginFormDTO loginForm);
+
+    Result sgin();
+
+    Result signCount();
 }
